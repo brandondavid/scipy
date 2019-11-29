@@ -266,7 +266,7 @@ Checklist before submitting a PR
 -  Did you check that the code can be distributed under a BSD license? See
    :ref:`license-considerations`.
 -  Are there unit tests with good code coverage? See
-   `NumPy/SciPy Testing Guidelines`_.
+   :ref:`NumPy/SciPy Testing Guidelines <numpy:testing>`.
 -  Do all unit tests pass locally? See :ref:`runtests`.
 -  Do all public function have docstrings including examples? See the
    `numpydoc docstring guide`_.
@@ -295,8 +295,6 @@ Checklist before submitting a PR
 .. _Setting your commit email address in Git: https://help.github.com/en/articles/setting-your-commit-email-address-in-git
 
 .. _"remotes": https://help.github.com/en/categories/managing-remotes
-
-.. _NumPy/SciPy Testing Guidelines: https://docs.scipy.org/doc/numpy/reference/testing.html
 
 .. _numpydoc docstring guide: https://numpydoc.readthedocs.io/en/latest/format.html
 
