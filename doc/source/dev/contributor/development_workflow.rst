@@ -266,7 +266,7 @@ Checklist before submitting a PR
 -  Did you check that the code can be distributed under a BSD license? See
    :ref:`license-considerations`.
 -  Are there unit tests with good code coverage? See
-   :ref:`NumPy/SciPy Testing Guidelines <numpy:testing>`.
+   :ref:`NumPy/SciPy Testing Guidelines <numpy:testing-guidelines>`.
 -  Do all unit tests pass locally? See :ref:`runtests`.
 -  Do all public function have docstrings including examples? See the
    `numpydoc docstring guide`_.
