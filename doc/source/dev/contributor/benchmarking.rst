@@ -170,7 +170,7 @@ review the results by navigating to http://127.0.0.1:8080 (local
 machine, port 8080).
 
 For much more information about the ``asv`` commands accessible via
-``run.py``, see the airspeed velocity :doc:`asv:commands:` documentation. (Tip:
+``run.py``, see the airspeed velocity :doc:`asv:commands` documentation. (Tip:
 check out the ``asv find`` command and the ``--quick``,
 ``--skip-existing-commits``, and ``--profile`` options for ``asv run``.)
 
