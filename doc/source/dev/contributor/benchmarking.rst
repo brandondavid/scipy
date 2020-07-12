@@ -123,9 +123,9 @@ saved for future comparison, you can use |run-py|_
 to run the benchmarks.
 
 ``run.py`` is a "wrapper" for the ``asv`` terminal command, the use of
-which is described in `Using airspeed velocity`_. ``run.py`` simply sets
-some environment variables for you, then sends all remaining command
-line arguments to ``asv``.
+which is described in :ref:`Using airspeed velocity <asv:using>`. ``run.py`` 
+simply sets some environment variables for you, then sends all remaining 
+command line arguments to ``asv``.
 
 To use it, navigate to ``scipy/benchmarks`` in the console and then
 execute::
@@ -176,7 +176,6 @@ check out the ``asv find`` command and the ``--quick``,
 
 .. _git revisions documentation: https://git-scm.com/docs/gitrevisions#_specifying_ranges
 .. _airspeed velocity: https://github.com/airspeed-velocity/asv
-.. _Using airspeed velocity: https://asv.readthedocs.io/en/stable/using.html#running-benchmarks
 .. _Benchmarking SciPy: https://youtu.be/edLQ8KRpupQ
 .. _airspeed velocity (asv) documentation: https://asv.readthedocs.io/en/stable/
 .. _airspeed velocity of an unladen scipy: https://pv.github.io/scipy-bench/

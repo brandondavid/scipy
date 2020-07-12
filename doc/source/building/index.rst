@@ -24,21 +24,19 @@ Build instructions for different operating systems and an FAQ:
 Reference for build options
 ===========================
 
-Scipy has several tunable build-time options, which can be set.
+SciPy has several tunable build-time options, which can be set.
 
 - ``site.cfg``: build-time library configuration file, see
   ``site.cfg.example`` for details.
 
 - Environment variables ``NPY_LAPACK_ORDER``, ``NPY_BLAS_ORDER``, ``OPENBLAS``,
   ``ATLAS``, etc., also controlling library configuration.
-  See `Numpy documentation <numpy-blasdoc>`_ for more details.
+  See :ref:`numpy:accelerated-blas-lapack-libraries` for more details.
 
 - Environment variable ``NPY_USE_BLAS_ILP64=1``: build using 64-bit
   integer size (ILP64) BLAS+LAPACK libraries.
 
-  Note that even when this is set, Scipy requires *also* 32-bit
+  Note that even when this is set, SciPy requires *also* 32-bit
   integer size (LP64) BLAS+LAPACK libraries to be available and
-  configured. This is because only some components in Scipy make use
+  configured. This is because only some components in SciPy make use
   of the 64-bit capabilities.
-
-.. _numpy-blasdoc: https://numpy.org/devdocs/user/building.html#accelerated-blas-lapack-libraries
