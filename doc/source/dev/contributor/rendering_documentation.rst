@@ -24,7 +24,7 @@ To render the documentation on your own machine:
    You need to be able to ``import scipy`` regardless of Python's working
    directory; the ``python setup.py develop`` and ``conda develop`` commands
    from the :ref:`quickstart <dev-env>` guides make this possible.
-#. Install `Sphinx`_ and :doc:`matplotlib:users/installing`. For
+#. Install `Sphinx`_ and :doc:`Matplotlib <matplotlib:users/installing>`. For
    example, if you're using the Anaconda distribution of Python, enter in a
    terminal window ``conda install sphinx matplotlib``.
 #. In a terminal window, browse to the ``scipy/doc`` directory. Note the

@@ -5,7 +5,7 @@ File IO (:mod:`scipy.io`)
 
 .. currentmodule:: scipy.io
 
-.. seealso:: :doc:`numpy:reference/routines.io`
+.. seealso:: :doc:`NumPy IO routines <numpy:reference/routines.io>`
 
 MATLAB files
 ------------

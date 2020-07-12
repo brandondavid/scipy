@@ -123,7 +123,7 @@ saved for future comparison, you can use |run-py|_
 to run the benchmarks.
 
 ``run.py`` is a "wrapper" for the ``asv`` terminal command, the use of
-which is described in :ref:`Using airspeed velocity <asv:using>`. ``run.py`` 
+which is described in :doc:`asv:using`. ``run.py`` 
 simply sets some environment variables for you, then sends all remaining 
 command line arguments to ``asv``.
 
